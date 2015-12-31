@@ -10,3 +10,93 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:  twenty-fifteen-child
 */
+
+body {
+    background: none;
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+#wrapper {
+    border: none;
+}
+
+.main-nav {
+    text-align: center;
+}
+
+ul.menu {
+    background: none;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    float: none;
+}
+
+.menu .current_page_item a, .menu .current-menu-item a {
+    background: none;
+}
+
+.menu a {
+    text-shadow: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 0 3em;
+    font-weight: normal;
+    font-family: sans-serif;
+    border: none;
+}
+
+.menu a:hover {
+    background: none;
+}
+
+
+/*------ HEADER ------*/
+
+div#logo {
+    float: none;
+    text-align: center;
+}
+
+#logo img {
+    max-width: 50%;
+}
+
+span.site-description {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-style: italic;
+}
+
+/*---- General ----*/
+h1.entry-title,
+h1.post-title
+.hidden-for-accessibility {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+
+
+blockquote {
+    background: none;
+    border-left: none;
+    border-top: solid 1px #500;
+    border-bottom: solid 1px #500;
+}
+
+blockquote p {
+    margin: 1.6em 0;
+}
+
+#content .wpb_alert p:last-child, #content .wpb_text_column :last-child, #content .wpb_text_column p:last-child, .vc_message_box>p:last-child, .wpb_alert p:last-child, .wpb_text_column :last-child, .wpb_text_column p:last-child {
+    margin-bottom: inherit!important;
+}
